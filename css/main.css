@@ -43,3 +43,54 @@
 -------------------------------------------------------------- */
 
 /* -- FORMS -- */ 
+
+/*--------------------------------------------------------------
+5.0 - OBJECTS 
+-------------------------------------------------------------- */
+
+/* -- Framework -- */
+
+.row {
+        overflow: auto;
+}
+
+#bg-header {
+        background:url("../img/bg-coffee.png") no-repeat center;
+        background-size: cover;
+        padding-top: 200px;
+        padding-bottom: 100px;
+}
+
+#bg-header, div.wrapper > nav > ul {
+        text-align: center;
+}
+
+#bg-header > div {
+        margin: 0 auto;
+}
+
+div.wrapper > nav > ul > li, div > nav > ul > li {
+        display: inline-block;
+}
+
+.col-1-3 {
+        width: 236px;
+}
+
+#logo {
+        width: 170px;
+        float: left;
+}
+
+body > header > div.wrapper > div > nav {
+        float: right;
+}
+
+.col-1-3, #bg-yellow > div > section:nth-child(1), body > footer > div > section:nth-child(2) > nav, body > footer > div > section:nth-child(4) {
+        float: left;
+}
+
+#bg-yellow > div > section:nth-child(2) {
+        padding-left: 250px;
+}
+
