@@ -58,6 +58,10 @@ ul {
         padding: 0;
 }
 
+section:nth-child(2) > nav > div:nth-child(2) > ul li {
+        list-style: none;
+}
+
 /* -- ANCHORS -- */ 
 
 a {
@@ -135,6 +139,10 @@ footer section:last-child {
         padding: 90px 0 90px 0;
 }
 
+#bg-white {
+        padding: 20px;
+}
+
 /*--------------------------------------------------------------
 6.0 - COMPONENTS 
 -------------------------------------------------------------- */
@@ -188,7 +196,7 @@ div.wrapper > nav > ul > li {
         font-size: 13px;
 }
 
-h1, h2, h3, div.wrapper > nav > ul li, #bg-header > div > p {
+h1, h2, h3, h4, div.wrapper > nav > ul li, #bg-header > div > p {
         text-transform: uppercase;
 }
 
@@ -202,7 +210,34 @@ p, li {
         line-height: 20px;
 }
 
+h2 {
+        font-size: 30px;
+}
 
+h3 {
+        font-size: 16px;
+}
+
+#bg-white b {
+        font-size: 60px;
+}
+
+#bg-white > p {
+        line-height: 30px;
+        text-align: center;
+}
+
+b {
+        font-weight: 800;
+}
+
+h2, #bg-white > p {
+        font-weight: 400;
+}
+
+footer > div > section:nth-child(2) > nav > div {
+        font-size: 14px;
+}
 
 /* -- NAVIGATION -- */ 
 
@@ -239,10 +274,22 @@ footer {
         background-color: #4c515b;
 }
 
+#bg-white {
+        background-color: #fff;
+}
+
 p {
         color: #a0a9b6;
 }
 
-nav a, #bg-header > div > p {
+nav a, #bg-header > div > p, h4 {
         color: white;
+}
+
+#bg-white > p, h2, body > footer > div > section:nth-child(2) > nav > li {
+        color: #4c515b;
+}
+
+#logo > h1 > a > img {
+        color: black;
 }
